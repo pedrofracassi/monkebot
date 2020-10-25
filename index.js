@@ -8,7 +8,7 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
 })
 
-cron.schedule('52 10 * * *', () => {
+cron.schedule('0 0 * * *', () => {
   const broadcast = client.voice.createBroadcast()
   client.guilds.cache.each(async guild => {
     const channel = guild.channels.cache.filter(c => c.type === 'voice' && c.joinable && c.members.size > 0).first()

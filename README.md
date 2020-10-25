@@ -1,2 +1,1 @@
-# monkebot
-Meia noite: horário oficial do óleo de macaco
+[Monke](https://www.youtube.com/watch?v=X4UdnWoK754) entra em canais de voz à meia noite e fala **"[Meia noite, horário oficial do óleo de macaco](https://sayba.com.br/w/index.php/%C3%93leo_de_Macaco)"**

@@ -20,6 +20,8 @@ cron.schedule('0 0 * * *', () => {
     })
   })
   const dispatcher = broadcast.play('oleodemacaco.mp3')
+}, {
+  timezone: 'America/Sao_Paulo'
 })
 
 client.login(process.env.DISCORD_TOKEN)

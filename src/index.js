@@ -8,10 +8,6 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
 })
 
-client.on('message', m => {
-  if (m.content === 'oleodemacaco') oleoDeMacaco()
-})
-
 cron.schedule('0 0 * * *', () => {
   oleoDeMacaco()
 }, {
